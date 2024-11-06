@@ -1,0 +1,64 @@
+{
+  "query_domain": "PPK2",
+  "UQDJ01000049.1_3": {
+    "n-5": {},
+    "n-4": {},
+    "n-3": {},
+    "n-2": {},
+    "n-1": {},
+    "n0": {
+      "gene_accession": "UQDJ01000049.1_3",
+      "domain_annotation": "PPK2/PPK2",
+      "sequence_direction": 1,
+      "gene_position_id": "49_3",
+      "gene_start": 2920,
+      "gene_end": 4617,
+      "gene_distance": 0
+    },
+    "n1": {
+      "gene_accession": "UQDJ01000049.1_4",
+      "domain_annotation": "Sortase",
+      "sequence_direction": 1,
+      "gene_position_id": "49_4",
+      "gene_start": 4706,
+      "gene_end": 5962,
+      "gene_distance": 89
+    },
+    "n2": {
+      "gene_accession": "UQDJ01000049.1_5",
+      "domain_annotation": "Unknown",
+      "sequence_direction": 1,
+      "gene_position_id": "49_5",
+      "gene_start": 5965,
+      "gene_end": 7422,
+      "gene_distance": 1348
+    },
+    "n3": {
+      "gene_accession": "UQDJ01000049.1_6",
+      "domain_annotation": "AIRS/AIRS_C",
+      "sequence_direction": 1,
+      "gene_position_id": "49_6",
+      "gene_start": 7457,
+      "gene_end": 8674,
+      "gene_distance": 2840
+    },
+    "n4": {
+      "gene_accession": "UQDJ01000049.1_7",
+      "domain_annotation": "Formyl_trans_N",
+      "sequence_direction": 1,
+      "gene_position_id": "49_7",
+      "gene_start": 8697,
+      "gene_end": 9329,
+      "gene_distance": 4080
+    },
+    "n5": {
+      "gene_accession": "UQDJ01000049.1_8",
+      "domain_annotation": "AICARFT_IMPCHas_1st/AICARFT_IMPCHas_2nd/MGS",
+      "sequence_direction": 1,
+      "gene_position_id": "49_8",
+      "gene_start": 9361,
+      "gene_end": 10956,
+      "gene_distance": 4744
+    }
+  }
+}
