@@ -3,8 +3,8 @@ import os
 
 def set_environment_variable():
     os.environ['workspace_path'] = "/home/ryusei/research/ppk2_bioinfo_paper/matsumoto_proteins_2024"
-    os.environ["GTDBDirPath"] = f"{os.environ['workspace_path']}/data/protein_faa_reps/bacteria"
-    os.environ["TaxonomyPath"] = f"{os.environ['workspace_path']}/data/bac120_taxonomy_r207.tsv"
+    os.environ["GTDBDirPath"] = "/mnt/d/Research_backup_240714/GTDB/protein_faa_reps/bacteria"
+    os.environ["TaxonomyPath"] = "/mnt/d/Research_backup_240714/GTDB/bac120_taxonomy.tsv"
     os.environ["Describe"] = f"{os.environ['workspace_path']}/data/ppk2_bacteria_table.tsv"
     os.environ["class3"] = f"{os.environ['workspace_path']}/data/ppk2_classification/ppk2_classIII_rep.txt"
     os.environ["class2"] = f"{os.environ['workspace_path']}/data/ppk2_classification/ppk2_classII_rep.txt"
