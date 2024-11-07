@@ -22,7 +22,7 @@ $ wget https://data.gtdb.ecogenomic.org/releases/release207/207.0/bac120_taxonom
 $ tar -zxvf gtdb_proteins_aa_reps_r207.tar.gz
 $ gunzip bac120_taxonomy_r207.tsv.gz
 ```
-The data stored in Zenodo (DOI 10.5281/zenodo.14047164) should also be included in the same directory. Additionally, modify matsumoto_proteins_2024/matsumoto_proteins_2024/lib/common.py so that the 'workspace_path' is set to the absolute path where this repository is located (e.g., <arbitrary path>/matsumoto_proteins_2024).
+The data stored in Zenodo (`DOI 10.5281/zenodo.14047164`) should also be included in the same directory. Additionally, modify `matsumoto_proteins_2024/matsumoto_proteins_2024/lib/common.py` so that the `workspace_path` is set to the absolute path where this repository is located (e.g., `"<arbitrary path>/matsumoto_proteins_2024"`).
 
 ##  Installing dependent libraries.
 ```
