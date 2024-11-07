@@ -15,23 +15,23 @@ $ source venv/bin/activate
 ```
 ## Downloading analysis data and required external files
 ```
-$ mkdir data
-$ cd data
-$ wget https://data.gtdb.ecogenomic.org/releases/release207/207.0/genomic_files_reps/gtdb_proteins_aa_reps_r207.tar.gz
-$ wget https://data.gtdb.ecogenomic.org/releases/release207/207.0/bac120_taxonomy_r207.tsv.gz
-$ tar -zxvf gtdb_proteins_aa_reps_r207.tar.gz
-$ gunzip bac120_taxonomy_r207.tsv.gz
+(venv)$ mkdir data
+(venv)$ cd data
+(venv)$ wget https://data.gtdb.ecogenomic.org/releases/release207/207.0/genomic_files_reps/gtdb_proteins_aa_reps_r207.tar.gz
+(venv)$ wget https://data.gtdb.ecogenomic.org/releases/release207/207.0/bac120_taxonomy_r207.tsv.gz
+(venv)$ tar -zxvf gtdb_proteins_aa_reps_r207.tar.gz
+(venv)$ gunzip bac120_taxonomy_r207.tsv.gz
 ```
 The data stored in Zenodo (`DOI 10.5281/zenodo.14047164`) should also be included in the same directory. Additionally, modify `matsumoto_proteins_2024/matsumoto_proteins_2024/lib/common.py` so that the `workspace_path` is set to the absolute path where this repository is located (e.g., `"<arbitrary path>/matsumoto_proteins_2024"`).
 
 ##  Installing dependent libraries.
 ```
-$  pip install ./matsumoto_proteins_2024/
+(venv)$ pip install ./matsumoto_proteins_2024/
 ```
 
 ## Module test
 ```
-$ python
+(venv)$ python
 >>> import lib.ppk2_tools
 >>>
 ```
