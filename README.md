@@ -28,11 +28,12 @@ The data stored in Zenodo (`DOI 10.5281/zenodo.14047164`) should also be include
 ```
 $  pip install ./matsumoto_proteins_2024/
 ```
+Install the modules in `/matsumoto_proteins_2024/matsumoto_proteins_2024/lib` and the libraries listed in `requirements.txt`.
 
 ## Module test
-If the following commands execute successfully, the environment has been set up correctly.
 ```
 $ python
 >>> import lib.ppk2_tools
 >>>
 ```
+If `lib.ppk2_tools` can be successfully imported, the environment has been set up correctly.
